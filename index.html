@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="google-site-verification" content="RKhmlUn2xSrFR5MqJVUGN5TgbwmMXtKhxeGjdYfSnlA" />
-  <title>Mi Sitio Web - Tarea</title>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DS783LNBBM"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DS783LNBBM');
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochilas Porteo Almería - Ayuntamiento</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+        body{background:#f8f9fa;color:#333;line-height:1.6}
+        header{background:linear-gradient(135deg,#4CAF50 0%,#2E7D32 100%);color:white;padding:40px;text-align:center}
+        .hero{background:#e8f5e9;padding:60px;text-align:center}
+        .container{max-width:1100px;margin:0 auto;padding:40px 20px}
+        .benefits{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin:40px 0}
+        .card{background:white;padding:30px;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.1);text-align:center}
+        .cta{display:inline-block;background:#FF5722;color:white;padding:15px 40px;text-decoration:none;border-radius:50px;font-weight:bold;margin:20px 0;font-size:18px}
+        footer{background:#333;color:white;text-align:center;padding:30px;margin-top:50px}
+    </style>
 </head>
 <body>
-  <h1>¡Bienvenido a mi sitio web!</h1>
-  <p>Este sitio fue creado como parte de mi tarea de análisis web.</p>
-  <p>Visita esta página para generar tráfico y ver los datos en Google Analytics.</p>
+    <header>
+        <h1>🎒 Mochilas de Porteo - Proyecto Ayuntamiento de Almería</h1>
+        <p>¡Reduce el tráfico y disfruta de la ciudad con tu bebé!</p>
+    </header>
+    
+    <div class="hero">
+        <h2>¿Sabías que el 30% del tráfico en hora punta es por desplazamientos escolares?</h2>
+        <p>Únete al cambio: movilidad sostenible con mochilas de porteo ergonómicas</p>
+    </div>
+    
+    <div class="container">
+        <div class="benefits">
+            <div class="card">
+                <h3>🌿 Beneficio ambiental</h3>
+                <p>Reduce emisiones de CO₂ en desplazamientos cortos por Almería</p>
+            </div>
+            <div class="card">
+                <h3>👶 Vínculo afectivo</h3>
+                <p>Mayor contacto piel con piel durante paseos por el centro o parques</p>
+            </div>
+            <div class="card">
+                <h3>💪 Ergonomía certificada</h3>
+                <p>Diseño que respeta la postura natural del bebé y protege tu espalda</p>
+            </div>
+        </div>
+        
+        <div style="background:#fff3e0;padding:30px;border-radius:10px;text-align:center;margin:40px 0">
+            <h2>🎁 OFERTA ESPECIAL AYUNTAMIENTO DE ALMERÍA</h2>
+            <p style="font-size:24px;color:#E65100;margin:20px 0">20% de descuento en tu primera mochila de porteo</p>
+            <a href="#" class="cta">QUIERO MI DESCUENTO</a>
+            <p style="margin-top:10px;font-style:italic">Válido para residentes en Almería capital y municipios limítrofes</p>
+        </div>
+        
+        <h3 style="text-align:center;margin:30px 0">📍 Puntos de recogida en Almería</h3>
+        <div style="display:flex;justify-content:space-around;flex-wrap:wrap">
+            <div class="card" style="background:#e3f2fd">
+                <p>📍 Centro<br>Calle Real, 45</p>
+            </div>
+            <div class="card" style="background:#e8f5e9">
+                <p>📍 Parque<br>Nicolás Salmerón</p>
+            </div>
+            <div class="card" style="background:#f3e5f5">
+                <p>📍 Mercado<br>Central</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Proyecto subvencionado por el Ayuntamiento de Almería | Promoviendo una movilidad más sostenible</p>
+        <p>tutiendaalmeria.com - Productos para bebé en Almería</p>
+    </footer>
 </body>
 </html>
